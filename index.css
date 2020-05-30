@@ -1,15 +1,28 @@
-.container {
-    display: inline-block;
-    cursor: pointer;
-    z-index: 40;
-    align-items: right;
+.nav {
+    top: 0;
     position: fixed;
+    display: block;
+    margin-top: 50px;
+}
+
+#horizontalBars {
+    float: right;
+    padding: 20px;
+    margin-top: -90px;
+}
+
+.UpperLeft {
+    color: white;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+    padding: 30px;
+    font-style: bold;
+
 }
 
 .bar1 {
     width: 25px;
     height: 3px;
-    background-color: grey;
+    background-color: white;
     margin: 4px 0;
     transition: 0.4s;
 }
@@ -17,7 +30,7 @@
 .bar2 {
     width: 25px;
     height: 3px;
-    background-color: grey;
+    background-color: white;
     margin: 4px 0;
     transition: 0.4s;
 }
@@ -25,8 +38,140 @@
 .bar3 {
     width: 25px;
     height: 3px;
-    background-color: grey;
+    background-color: white;
     margin: 4px 0;
     transition: 0.4s;
 }
+
+.MainPic {
+    background-image: url("https://www.hulu.com/static/hitch/s3/2020-04/Homepage_Masthead_Test_TREATMENT_3200x1320-v4b_Desktop_0.jpg?3QKebgjV32Lc0StQODoFkcm0kjrPujXN");
+    height: 70vh;
+    margin: -8px;
+    margin-top: -20px;
+    
+}
+
+.TV {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-style: bold;
+    color: white;
+    margin-top: -50px;
+    
+
+    
+}
+
+.Plan {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: white;
+
+}
+
+.AddOn {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+    font-weight: normal;
+}
+
+.Trial {
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 625px;
+    margin-top: 10px;
+    padding: 15px 50px 15px 50px;
+    display: inline-block;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+
+.FreeTrial {
+    text-align: center;
+    color: grey;
+    margin-left: 4px;
+    font-size: 18px;
+}
+
+.MiddleBar {
+    background-image: linear-gradient(135deg,#231437 0%,#2c385e 50%,#336e6b 100%);
+    background-repeat: no-repeat;
+    height: 20vh;
+    margin-top: 7px;
+    margin-left: -8px;
+    margin-right: -8px;
+
+}
+
+.Logos {
+    background-image: url("C:\Users\13173\OneDrive\Desktop\WDMay2020\javaScriptLibrary\Projects\staticLayout\assets\HuluD+ESPN.png");
+    width: 350px;
+    height: 85px;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.Bundle {
+    margin-top: -120px;
+    text-align: center;
+    margin-left: -150px;
+}
+
+.BundleSave {
+    margin-right: 275px;
+    color: #2DBD9D;
+}
+
+.Price {
+    color: white;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+    margin-left: 45px;
+}
+
+.MoreDetails {
+    margin-right: 415px;
+    color: #f5f6f7;
+    text-decoration: underline;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+}
+
+.BuyNow {
+    color: white;
+    float: right;
+    margin-top: -90px;
+    margin-right: 50px;
+    border: 3px solid white;
+    padding: 18px 22px 18px 22px;
+    border-radius: 5px;
+    display:inline-block;
+    font-size: 14px;
+}
+
+.Terms {
+    color: #f5f6f7;
+    float: right;
+    margin-top: -25px;
+    margin-right: 75px;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+.Seasons {
+    background-image: url("https://www.hulu.com/static/hitch/s3/2019-11/Welcome-ContentBlock-Desktop%20.jpg?jG5AfMZ.bGHD8c3NgPVsML79Im6UkUSW");
+    width: 1520px;
+    margin-top: 0px;
+    margin-left: -10px;
+    margin-right: 10;
+    margin-bottom: -10px;
+}
+
 
